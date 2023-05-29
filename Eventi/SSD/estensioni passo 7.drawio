@@ -1,0 +1,167 @@
+<mxfile host="Electron" modified="2023-05-22T16:40:11.696Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.8 Chrome/112.0.5615.165 Electron/24.2.0 Safari/537.36" etag="rVUaZF1aB3DZTBoBQFPz" version="21.2.8" type="device">
+  <diagram name="Pagina-1" id="ceSU3Oycdj-B4lNErDYx">
+    <mxGraphModel dx="-2032" dy="-563" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bbagv_Wwn2x3i7XY6--g-1" value="Organizzatore" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="4115" y="1926" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bbagv_Wwn2x3i7XY6--g-2" value="Sistema" style="verticalAlign=top;align=center;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="4450" y="1941" width="120" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="bbagv_Wwn2x3i7XY6--g-3" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0;entryY=0;entryDx=45;entryDy=65;entryPerimeter=0;" parent="1" target="bbagv_Wwn2x3i7XY6--g-2" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="4505" y="2566" as="sourcePoint" />
+            <mxPoint x="4195" y="1731" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bbagv_Wwn2x3i7XY6--g-4" value="Sistema" style="verticalAlign=top;align=center;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="4450" y="1941" width="120" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="bbagv_Wwn2x3i7XY6--g-5" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="4130" y="2566" as="sourcePoint" />
+            <mxPoint x="4130" y="1986" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bbagv_Wwn2x3i7XY6--g-6" value="1. verificaStatoTurni()" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="4140" y="2036" as="sourcePoint" />
+            <mxPoint x="4500" y="2036" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bbagv_Wwn2x3i7XY6--g-7" value="viene fornito il calendario contenente i turni" style="endArrow=classic;html=1;rounded=0;dashed=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="4500" y="2062.52" as="sourcePoint" />
+            <mxPoint x="4140" y="2062.52" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bbagv_Wwn2x3i7XY6--g-8" value="2. creazioneEvento(dataInizio,dataFine, nomeEvento, luogo,&amp;nbsp;numero partecipanti, cliente)" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="4140" y="2108.5299999999997" as="sourcePoint" />
+            <mxPoint x="4500" y="2108.5299999999997" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bbagv_Wwn2x3i7XY6--g-9" value="verrà creato un evento" style="endArrow=classic;html=1;rounded=0;dashed=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="4500" y="2135.05" as="sourcePoint" />
+            <mxPoint x="4140" y="2135.05" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bbagv_Wwn2x3i7XY6--g-10" value="3. aggiungiServizio(nome, orarioInizio, orarioFine, qtyPersonale, dettaglio)" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="4140" y="2175.52" as="sourcePoint" />
+            <mxPoint x="4500" y="2175.52" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="4330" y="2176" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bbagv_Wwn2x3i7XY6--g-11" value="verrà creato un servizio relativo all&#39;evento" style="endArrow=classic;html=1;rounded=0;dashed=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="4495" y="2206" as="sourcePoint" />
+            <mxPoint x="4135" y="2206" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bbagv_Wwn2x3i7XY6--g-12" value="LOOP" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;fillColor=#dae8fc;strokeColor=#6c8ebf;width=35;height=15;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="4115" y="2161.5" width="400" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="bbagv_Wwn2x3i7XY6--g-13" value="4. sceltaChef(chef)" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="4135" y="2238" as="sourcePoint" />
+            <mxPoint x="4495" y="2238" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bbagv_Wwn2x3i7XY6--g-14" value="verrà assegnato uno chef al relativo evento" style="endArrow=classic;html=1;rounded=0;dashed=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="4492.5" y="2263.48" as="sourcePoint" />
+            <mxPoint x="4132.5" y="2263.48" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bbagv_Wwn2x3i7XY6--g-15" value="LOOP" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;fillColor=#dae8fc;strokeColor=#6c8ebf;width=43;height=15;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="4097.5" y="2146" width="435" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="bbagv_Wwn2x3i7XY6--g-16" value="6. assegnamentoPersonale(Turno, Servizio, Personale, ruolo)" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="4136.25" y="2369.7799999999997" as="sourcePoint" />
+            <mxPoint x="4496.25" y="2369.7799999999997" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bbagv_Wwn2x3i7XY6--g-17" value="verrà assegnato il numero necessario di personale all&#39;evento" style="endArrow=classic;html=1;rounded=0;dashed=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="4493.75" y="2395.26" as="sourcePoint" />
+            <mxPoint x="4133.75" y="2395.26" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bbagv_Wwn2x3i7XY6--g-18" value="7. aggiuntaNota(Servizio?, evento?, descrizione)" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="4136.25" y="2421.5699999999997" as="sourcePoint" />
+            <mxPoint x="4496.25" y="2421.5699999999997" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bbagv_Wwn2x3i7XY6--g-19" value="ok" style="endArrow=classic;html=1;rounded=0;dashed=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="4493.75" y="2447.05" as="sourcePoint" />
+            <mxPoint x="4133.75" y="2447.05" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bbagv_Wwn2x3i7XY6--g-20" value="LOOP" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;fillColor=#dae8fc;strokeColor=#6c8ebf;width=60;height=20;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="4080" y="2140" width="470" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="bbagv_Wwn2x3i7XY6--g-21" value="OPT" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;fillColor=#d5e8d4;strokeColor=#82b366;width=30;height=15;" parent="1" vertex="1">
+          <mxGeometry x="4120" y="2406" width="390" height="184" as="geometry" />
+        </mxCell>
+        <mxCell id="bbagv_Wwn2x3i7XY6--g-22" value="passo 7" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="4270" y="1874" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bbagv_Wwn2x3i7XY6--g-23" value="LOOP" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;fillColor=#dae8fc;strokeColor=#6c8ebf;width=33;height=15;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="4097.5" y="2346" width="432.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bbagv_Wwn2x3i7XY6--g-24" value="7.a.1. modificaNota(Nota, descrizione)" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="4135" y="2473.93" as="sourcePoint" />
+            <mxPoint x="4495" y="2473.93" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bbagv_Wwn2x3i7XY6--g-25" value="ok" style="endArrow=classic;html=1;rounded=0;dashed=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="4492.5" y="2499.4100000000003" as="sourcePoint" />
+            <mxPoint x="4132.5" y="2499.4100000000003" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bbagv_Wwn2x3i7XY6--g-26" value="7.b.1. eliminaNota(Nota)" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="4137.5" y="2533.93" as="sourcePoint" />
+            <mxPoint x="4497.5" y="2533.93" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bbagv_Wwn2x3i7XY6--g-27" value="ok" style="endArrow=classic;html=1;rounded=0;dashed=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="4495" y="2559.4100000000003" as="sourcePoint" />
+            <mxPoint x="4135" y="2559.4100000000003" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bbagv_Wwn2x3i7XY6--g-28" value="ALT" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;fillColor=#e51400;strokeColor=#B20000;width=20;height=15;swimlaneFillColor=none;fillStyle=auto;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="4130" y="2414" width="370" height="166" as="geometry" />
+        </mxCell>
+        <mxCell id="bbagv_Wwn2x3i7XY6--g-29" value="5. approvazionemenu(servizio)" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="4147.5" y="2298.34" as="sourcePoint" />
+            <mxPoint x="4507.5" y="2298.34" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bbagv_Wwn2x3i7XY6--g-30" value="ok" style="endArrow=classic;html=1;rounded=0;dashed=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="4505" y="2323.8199999999997" as="sourcePoint" />
+            <mxPoint x="4145" y="2323.8199999999997" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

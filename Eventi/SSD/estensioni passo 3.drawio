@@ -1,0 +1,240 @@
+<mxfile host="Electron" modified="2023-05-22T16:38:04.628Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.8 Chrome/112.0.5615.165 Electron/24.2.0 Safari/537.36" etag="U7mXluziCA1kae8PCE-V" version="21.2.8" type="device">
+  <diagram name="Pagina-1" id="trNqjGjpUmjZhGX8-0Gj">
+    <mxGraphModel dx="-2787" dy="613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="4LCpQZGj6c3xw2DHhMue-1" value="estensione passo 3" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="4100" y="480" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4LCpQZGj6c3xw2DHhMue-2" value="Organizzatore" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="3975" y="555" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4LCpQZGj6c3xw2DHhMue-3" value="Sistema" style="verticalAlign=top;align=center;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="4310" y="570" width="120" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="4LCpQZGj6c3xw2DHhMue-4" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0;entryY=0;entryDx=45;entryDy=65;entryPerimeter=0;" parent="1" target="4LCpQZGj6c3xw2DHhMue-3" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="4365" y="1670" as="sourcePoint" />
+            <mxPoint x="4055" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4LCpQZGj6c3xw2DHhMue-5" value="Sistema" style="verticalAlign=top;align=center;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="4310" y="570" width="120" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="4LCpQZGj6c3xw2DHhMue-6" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="3990" y="1650" as="sourcePoint" />
+            <mxPoint x="3990" y="615" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4LCpQZGj6c3xw2DHhMue-7" value="1. verificaStatoTurni()" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="4000" y="665" as="sourcePoint" />
+            <mxPoint x="4360" y="665" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4LCpQZGj6c3xw2DHhMue-8" value="viene fornito il calendario contenente i turni" style="endArrow=classic;html=1;rounded=0;dashed=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="4360" y="691.52" as="sourcePoint" />
+            <mxPoint x="4000" y="691.52" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4LCpQZGj6c3xw2DHhMue-9" value="2. creazioneEvento(dataInizio,dataFine, &lt;br&gt;nomeEvento, luogo,&amp;nbsp;numero partecipanti, cliente)" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="4000" y="737.53" as="sourcePoint" />
+            <mxPoint x="4360" y="737.53" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4LCpQZGj6c3xw2DHhMue-10" value="verrà creato un evento" style="endArrow=classic;html=1;rounded=0;dashed=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="4360" y="764.05" as="sourcePoint" />
+            <mxPoint x="4000" y="764.05" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4LCpQZGj6c3xw2DHhMue-11" value="3. creazioneServizio(nome, orarioInizio, orarioFine, qtyPersonale, dettaglio)" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="4000" y="841.4499999999999" as="sourcePoint" />
+            <mxPoint x="4360" y="841.4499999999999" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4LCpQZGj6c3xw2DHhMue-12" value="ok" style="endArrow=classic;html=1;rounded=0;dashed=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="4355" y="854.05" as="sourcePoint" />
+            <mxPoint x="3995" y="854.05" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4LCpQZGj6c3xw2DHhMue-13" value="LOOP" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;fillColor=#dae8fc;strokeColor=#6c8ebf;width=35;height=15;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="3975" y="790.5" width="400" height="389.5" as="geometry" />
+        </mxCell>
+        <mxCell id="4LCpQZGj6c3xw2DHhMue-14" value="4. sceltaChef(chef)" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="3996.25" y="1211" as="sourcePoint" />
+            <mxPoint x="4356.25" y="1211" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4LCpQZGj6c3xw2DHhMue-15" value="verrà assegnato uno chef al relativo evento" style="endArrow=classic;html=1;rounded=0;dashed=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="4353.75" y="1236.48" as="sourcePoint" />
+            <mxPoint x="3993.75" y="1236.48" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4LCpQZGj6c3xw2DHhMue-16" value="LOOP" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;fillColor=#CCCCCC;strokeColor=#999999;width=43;height=15;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="3957.5" y="775" width="435" height="475" as="geometry" />
+        </mxCell>
+        <mxCell id="4LCpQZGj6c3xw2DHhMue-17" value="6. assegnamentoPersonale(Turno, Servizio, Personale, ruolo)" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="3996.25" y="1344.78" as="sourcePoint" />
+            <mxPoint x="4356.25" y="1344.78" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4LCpQZGj6c3xw2DHhMue-18" value="verrà assegnato il numero necessario di personale all&#39;evento" style="endArrow=classic;html=1;rounded=0;dashed=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="4353.75" y="1370.26" as="sourcePoint" />
+            <mxPoint x="3993.75" y="1370.26" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4LCpQZGj6c3xw2DHhMue-19" value="7. aggiuntaNota(Servizio?,Evento?, descrizione)" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="3996.25" y="1396.57" as="sourcePoint" />
+            <mxPoint x="4356.25" y="1396.57" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4LCpQZGj6c3xw2DHhMue-20" value="ok" style="endArrow=classic;html=1;rounded=0;dashed=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="4353.75" y="1422.05" as="sourcePoint" />
+            <mxPoint x="3993.75" y="1422.05" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4LCpQZGj6c3xw2DHhMue-21" value="LOOP" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;fillColor=#CCCCCC;strokeColor=#999999;width=60;height=20;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="3940" y="770" width="470" height="690" as="geometry" />
+        </mxCell>
+        <mxCell id="4LCpQZGj6c3xw2DHhMue-22" value="OPT" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;fillColor=#CCCCCC;strokeColor=#999999;width=30;height=15;" parent="1" vertex="1">
+          <mxGeometry x="3980" y="1381" width="390" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4LCpQZGj6c3xw2DHhMue-23" value="LOOP" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;fillColor=#CCCCCC;strokeColor=#999999;width=33;height=15;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="3957.5" y="1321" width="432.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4LCpQZGj6c3xw2DHhMue-24" value="ALT" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;fillColor=#e51400;strokeColor=#B20000;width=35;height=15;swimlaneFillColor=none;fillStyle=auto;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="3984" y="805" width="387" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="4LCpQZGj6c3xw2DHhMue-25" value="3.a modificaServizio(Servizio, dataInizio?, dataFine?, qtyPersonale?, dettaglio?)" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="3997.5" y="931.5" as="sourcePoint" />
+            <mxPoint x="4357.5" y="931.5" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4LCpQZGj6c3xw2DHhMue-26" value="ok" style="endArrow=classic;html=1;rounded=0;dashed=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="4357.5" y="968.8199999999999" as="sourcePoint" />
+            <mxPoint x="3997.5" y="968.8199999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4LCpQZGj6c3xw2DHhMue-27" value="3.b.1 eliminaServizio(Servizio)" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="3997.5" y="1078.9699999999998" as="sourcePoint" />
+            <mxPoint x="4357.5" y="1078.9699999999998" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4LCpQZGj6c3xw2DHhMue-28" value="ok" style="endArrow=classic;html=1;rounded=0;dashed=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="4352.5" y="1109.4499999999998" as="sourcePoint" />
+            <mxPoint x="3992.5" y="1109.4499999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4LCpQZGj6c3xw2DHhMue-29" value="3.b.1.a il servizio è già terminato" style="endArrow=classic;html=1;rounded=0;dashed=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="4355" y="1140.36" as="sourcePoint" />
+            <mxPoint x="3995" y="1140.36" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4LCpQZGj6c3xw2DHhMue-30" value="3.a.1.a il servizio è già terminato" style="endArrow=classic;html=1;rounded=0;dashed=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="4355" y="1001.66" as="sourcePoint" />
+            <mxPoint x="3995" y="1001.66" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4LCpQZGj6c3xw2DHhMue-31" value="3.a.1.b la data è già passata" style="endArrow=classic;html=1;rounded=0;dashed=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="4357.5" y="1043.7500000000002" as="sourcePoint" />
+            <mxPoint x="3997.5" y="1043.7500000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4LCpQZGj6c3xw2DHhMue-32" value="ALT" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;fillColor=#e51400;strokeColor=#B20000;width=35;height=15;swimlaneFillColor=none;fillStyle=auto;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="3984" y="905" width="387" height="165" as="geometry" />
+        </mxCell>
+        <mxCell id="4LCpQZGj6c3xw2DHhMue-33" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=-0.006;exitY=0.613;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#e51400;strokeColor=#B20000;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="3985" y="949.41" as="sourcePoint" />
+            <mxPoint x="4371" y="949.41" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4LCpQZGj6c3xw2DHhMue-34" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=-0.006;exitY=0.613;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#e51400;strokeColor=#B20000;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="3985" y="982" as="sourcePoint" />
+            <mxPoint x="4371" y="982" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4LCpQZGj6c3xw2DHhMue-35" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=-0.006;exitY=0.613;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#e51400;strokeColor=#B20000;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="3984" y="1028.82" as="sourcePoint" />
+            <mxPoint x="4370" y="1028.82" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4LCpQZGj6c3xw2DHhMue-36" value="ALT" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;fillColor=#e51400;strokeColor=#B20000;width=35;height=15;swimlaneFillColor=none;fillStyle=auto;fontColor=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="3984" y="1070" width="387" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="4LCpQZGj6c3xw2DHhMue-37" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=-0.006;exitY=0.613;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#e51400;strokeColor=#B20000;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="3983.25" y="1124.67" as="sourcePoint" />
+            <mxPoint x="4369.25" y="1124.67" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4LCpQZGj6c3xw2DHhMue-38" value="3.a.1 la data di inizio deve essere maggiore di quella attuale" style="endArrow=classic;html=1;rounded=0;dashed=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="4355" y="874.05" as="sourcePoint" />
+            <mxPoint x="3995" y="874.05" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4LCpQZGj6c3xw2DHhMue-39" value="3.a.2 la data di inizio deve essere maggiore di quella dell&#39;evento" style="endArrow=classic;html=1;rounded=0;dashed=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="4355" y="894.05" as="sourcePoint" />
+            <mxPoint x="3995" y="894.05" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4LCpQZGj6c3xw2DHhMue-40" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=-0.006;exitY=0.613;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#e51400;strokeColor=#B20000;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="3989" y="863.89" as="sourcePoint" />
+            <mxPoint x="4375" y="863.89" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4LCpQZGj6c3xw2DHhMue-41" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=-0.006;exitY=0.613;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#e51400;strokeColor=#B20000;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="3989" y="883.89" as="sourcePoint" />
+            <mxPoint x="4375" y="883.89" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4LCpQZGj6c3xw2DHhMue-42" value="5. approvazionemenu(servizio)" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="3997.5" y="1274.55" as="sourcePoint" />
+            <mxPoint x="4357.5" y="1274.55" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4LCpQZGj6c3xw2DHhMue-43" value="ok" style="endArrow=classic;html=1;rounded=0;dashed=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="4355" y="1300.03" as="sourcePoint" />
+            <mxPoint x="3995" y="1300.03" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
