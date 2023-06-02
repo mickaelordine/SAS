@@ -1,0 +1,39 @@
+passo 4:
+
+    - continua dal passo 4 in cui può esistere un inserimento con i valori di amount estimated time ecc...
+
+    -  //|| (LocalTime.now().getHour() - turn.getStartTime()/60)>0 rimuovere questo stupido controllo dal DSD, ci si aspetta che lui lo faccia giorni prima
+    questo perchè se lo effettua il giorno stesso è giusto che ci sia questo controllo ma ci si aspetta che lo faccia prima
+
+    -|| service.getSummarySheet() != null nella creazione del summary sheet, possiamo immaginarci che il layout della UI non ci permetta
+
+    - controlla il service id = 0 nel summarySheet, molto probabilmente serve una query per ottenere l'informazione da db e in seguito assegnarlo
+    al summarySheet
+
+    - il settaggio dello state del servizio va rivisto perchè per come è nel test non riesce a capire lo state dato che non lo si setta, possiamo aggiungere un setState
+    quando viene creato il summary sheet
+
+PROETTO POTENZIALMENTE FINITO
+    ricontrolla:
+        - verificare con test diversi le dipendenze tra turni e cuochi durante l'assegnamento dei compiti
+        - verificare se le responsabilità sono correttamente assegnate
+        - riguarda la congruenza tra DCD e DSD, ricorda che i DSD sono quelli su cui devi fare affidamento.
+
+
+                System.out.println("GET EVENT");
+                ObservableList<EventInfo> ev = CatERing.getInstance().getEventManager().getEventInfo();
+                EventInfo event = ev.get(0);
+                System.out.println("GET SERVICE");
+                ServiceInfo service = ev.get(0).getServices().get(1);
+                service.setMenu(m);
+                // modifica e aggiungi persistenza db con servizio e menu
+                qui fare in modo di prendere il menu associato al relativo servizio e settare questo come menu
+
+
+                // aggiungi l'ordinamento su DB
+                CatERing.getInstance().getKitchenTaskManager().sortTask(CatERing.getInstance().getKitchenTaskManager().getCurrentS().getTasks().get(s.getTasks().size()-1),1);
+                qui creare un ordinamento se sia rispetto al
+
+
+
+
